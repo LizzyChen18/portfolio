@@ -35,7 +35,7 @@
 
 .nav-btn:hover {
   opacity: 1;
-  background-color: #cacaca;
+  background-color: #f4f9f9;
   color: #343434;
 }
 
@@ -73,56 +73,71 @@
 .Journey-title {
   font-family: 'Montserrat', sans-serif;
   color: #343434;
-  margin-top: 40px;
+  margin-top: 50px;
   font-weight: bold;
-  text-align:center;
+  margin-bottom: 30px;
+  align-content: center;
 }
 
-.journey-cards {
-  display: block;
-  margin: 190px;
-  margin-top:20px;
-}
-
-
-.card-product {
-  overflow: hidden;
-  height: 200px;
-  background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+.Journey-card {
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  width: 90%;
+  box-sizing: border-box;
+  padding-top: 15px;
+  padding-right: 15px;
+  margin-bottom: 20px;
   border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 2px rgba(0,0,0,0.2);
 }
 
-.card-product img {
-  height: 49%;
-  width: 200px;
-  object-fit: cover;
+.Journey-card:hover {
+  opacity: 1;
+  background-color: #f4f9f9;
 }
 
-.card-product h2 {
-  font-size: 26px;
-  font-weight: bold;
-  margin: 10px;
+.Job-title{
+  font-size: 20px;
 }
 
-.card-product p {
-  font-size: 12px;
-  line-height: 1.4;
-  opacity: .7;
-  margin-bottom: 0;
-  margin-top: 8px;
-}
+.date{
+  font-size: 15px;
+  margin-left: 10px;
 
-.card-product .card-product-infos {
-  padding: 16px;
 }
 
 
+.Journey-custom-1 {
+  font-size: 15px;
+  font-weight: 400;
+  float: right;
+  display: inline;
+  background-color: #fff4e0;
+}
 
+.button-linkedin {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 15px;
+  margin-left:250px;
+}
 
+.btn-outline-secondary{
+  font-family: 'Montserrat', sans-serif;
+  color: #343434;
+  border: 1px solid #aaaaaa;
+  padding: 8px 24px;
+  border-radius: 50px;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-outline-secondary:hover{
+  opacity: 1;
+  background-color: #ccf2f4;
+  color: #343434;
+}
 
 
 
