@@ -23,7 +23,6 @@
 
 .nav-btn {
   color: #343434;
-  font-family: 'Montserrat', sans-serif;
   margin-right: 40px;
   border: 1px solid #4A4A4A;
   padding: 8px 24px;
@@ -35,8 +34,8 @@
 
 .nav-btn:hover {
   opacity: 1;
-  background-color: #f4f9f9;
-  color: #343434;
+  background-color: #aaaaaa;
+  color: #f4f9f9;
 }
 
 .banner {
@@ -76,13 +75,13 @@
   margin-top: 50px;
   font-weight: bold;
   margin-bottom: 30px;
-  align-content: center;
+  text-align: center;
 }
 
 .Journey-card {
   display: flex;
   align-items: center;
-  width: 90%;
+  width: 100%;
   box-sizing: border-box;
   padding-top: 15px;
   padding-right: 15px;
@@ -93,8 +92,8 @@
 }
 
 .Journey-card:hover {
-  opacity: 1;
-  background-color: #f4f9f9;
+  opacity: 0.8;
+  background-color: #f4f9f9
 }
 
 .Job-title{
@@ -124,7 +123,7 @@
 }
 
 .btn-outline-secondary{
-  font-family: 'Montserrat', sans-serif;
+
   color: #343434;
   border: 1px solid #aaaaaa;
   padding: 8px 24px;
@@ -135,9 +134,35 @@
 
 .btn-outline-secondary:hover{
   opacity: 1;
-  background-color: #ccf2f4;
-  color: #343434;
+  background-color: #aaaaaa;
+  color: #f4f9f9;
 }
+
+.Skills-title{
+  font-family: 'Montserrat', sans-serif;
+  color: #343434;
+  margin-top: 50px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+
+}
+
+.Skill-cards{
+  display:inline-flex;
+  justify-content: space-between;
+  background-color: #f4f9f9;
+
+}
+
+.soft-skill-detail{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  align-content: center;
+
+}
+
+
 
 
 
